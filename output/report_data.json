@@ -1,0 +1,443 @@
+{
+  "kpis": {
+    "hospital_name": "بیمارستان قلب شهید چمران اصفهان",
+    "report_period": "سه ماهه اول سال 1405",
+    "total_events": 139,
+    "success_count": 64,
+    "failure_count": 75,
+    "success_rate": 46.0,
+    "avg_age": 63.2,
+    "median_age": 68.0,
+    "top_department": "CICU",
+    "top_department_count": 51,
+    "top_shift": "شب",
+    "top_shift_count": 60,
+    "best_supervisor": "خانم رضائی",
+    "best_supervisor_rate": 70.4,
+    "best_supervisor_cases": 27,
+    "worst_supervisor": "آقای امینی",
+    "worst_supervisor_rate": 21.4,
+    "worst_supervisor_cases": 14,
+    "best_month": "اردیبهشت",
+    "best_month_rate": 52.4,
+    "lowest_month": "خرداد",
+    "lowest_month_rate": 40.9,
+    "minimum_supervisor_cases": 5,
+    "quality": {
+      "source_rows": 141,
+      "valid_rows": 139,
+      "duplicates_removed": 2,
+      "invalid_outcomes": 0,
+      "invalid_ages": 0
+    }
+  },
+  "monthly": [
+    {
+      "ماه": "فروردین",
+      "total": 53,
+      "success": 24,
+      "failure": 29,
+      "success_rate": 45.28301886792453
+    },
+    {
+      "ماه": "اردیبهشت",
+      "total": 42,
+      "success": 22,
+      "failure": 20,
+      "success_rate": 52.38095238095239
+    },
+    {
+      "ماه": "خرداد",
+      "total": 44,
+      "success": 18,
+      "failure": 26,
+      "success_rate": 40.909090909090914
+    }
+  ],
+  "departments": [
+    {
+      "بخش": "CCU",
+      "total": 6,
+      "success": 3,
+      "failure": 3,
+      "success_rate": 50.0
+    },
+    {
+      "بخش": "CCU ویژه",
+      "total": 5,
+      "success": 5,
+      "failure": 0,
+      "success_rate": 100.0
+    },
+    {
+      "بخش": "CICU",
+      "total": 51,
+      "success": 14,
+      "failure": 37,
+      "success_rate": 27.450980392156865
+    },
+    {
+      "بخش": "ICUA",
+      "total": 5,
+      "success": 2,
+      "failure": 3,
+      "success_rate": 40.0
+    },
+    {
+      "بخش": "ICUB",
+      "total": 14,
+      "success": 4,
+      "failure": 10,
+      "success_rate": 28.57142857142857
+    },
+    {
+      "بخش": "NICU",
+      "total": 2,
+      "success": 2,
+      "failure": 0,
+      "success_rate": 100.0
+    },
+    {
+      "بخش": "PICU",
+      "total": 6,
+      "success": 2,
+      "failure": 4,
+      "success_rate": 33.33333333333333
+    },
+    {
+      "بخش": "آنژیوگرافی",
+      "total": 16,
+      "success": 10,
+      "failure": 6,
+      "success_rate": 62.5
+    },
+    {
+      "بخش": "اطفال",
+      "total": 2,
+      "success": 2,
+      "failure": 0,
+      "success_rate": 100.0
+    },
+    {
+      "بخش": "اورژانس",
+      "total": 16,
+      "success": 9,
+      "failure": 7,
+      "success_rate": 56.25
+    },
+    {
+      "بخش": "اکو تخصصی",
+      "total": 1,
+      "success": 1,
+      "failure": 0,
+      "success_rate": 100.0
+    },
+    {
+      "بخش": "جراحی",
+      "total": 1,
+      "success": 1,
+      "failure": 0,
+      "success_rate": 100.0
+    },
+    {
+      "بخش": "دیالیز",
+      "total": 6,
+      "success": 3,
+      "failure": 3,
+      "success_rate": 50.0
+    },
+    {
+      "بخش": "زنان",
+      "total": 1,
+      "success": 1,
+      "failure": 0,
+      "success_rate": 100.0
+    },
+    {
+      "بخش": "مردان A",
+      "total": 1,
+      "success": 0,
+      "failure": 1,
+      "success_rate": 0.0
+    },
+    {
+      "بخش": "مردان C",
+      "total": 3,
+      "success": 2,
+      "failure": 1,
+      "success_rate": 66.66666666666666
+    },
+    {
+      "بخش": "پست آنژیو",
+      "total": 3,
+      "success": 3,
+      "failure": 0,
+      "success_rate": 100.0
+    }
+  ],
+  "shifts": [
+    {
+      "شیفت": "شب",
+      "total": 60,
+      "success": 26,
+      "failure": 34,
+      "success_rate": 43.333333333333336
+    },
+    {
+      "شیفت": "صبح",
+      "total": 44,
+      "success": 26,
+      "failure": 18,
+      "success_rate": 59.09090909090909
+    },
+    {
+      "شیفت": "عصر",
+      "total": 35,
+      "success": 12,
+      "failure": 23,
+      "success_rate": 34.285714285714285
+    }
+  ],
+  "supervisors": [
+    {
+      "سوپروایزر حاضر بر احیا": "آقای امینی",
+      "total": 14,
+      "success": 3,
+      "failure": 11,
+      "success_rate": 21.428571428571427
+    },
+    {
+      "سوپروایزر حاضر بر احیا": "آقای حاجی علی",
+      "total": 20,
+      "success": 9,
+      "failure": 11,
+      "success_rate": 45.0
+    },
+    {
+      "سوپروایزر حاضر بر احیا": "آقای زارعی",
+      "total": 3,
+      "success": 2,
+      "failure": 1,
+      "success_rate": 66.66666666666666
+    },
+    {
+      "سوپروایزر حاضر بر احیا": "خانم رضائی",
+      "total": 27,
+      "success": 19,
+      "failure": 8,
+      "success_rate": 70.37037037037037
+    },
+    {
+      "سوپروایزر حاضر بر احیا": "خانم سیف پور",
+      "total": 14,
+      "success": 4,
+      "failure": 10,
+      "success_rate": 28.57142857142857
+    },
+    {
+      "سوپروایزر حاضر بر احیا": "خانم فانیان",
+      "total": 21,
+      "success": 8,
+      "failure": 13,
+      "success_rate": 38.095238095238095
+    },
+    {
+      "سوپروایزر حاضر بر احیا": "خانم مرادی",
+      "total": 11,
+      "success": 5,
+      "failure": 6,
+      "success_rate": 45.45454545454545
+    },
+    {
+      "سوپروایزر حاضر بر احیا": "خانم گشول",
+      "total": 29,
+      "success": 14,
+      "failure": 15,
+      "success_rate": 48.275862068965516
+    }
+  ],
+  "age_groups": [
+    {
+      "گروه سنی": "نوزاد",
+      "total": 6,
+      "success": 4,
+      "failure": 2,
+      "success_rate": 66.66666666666666
+    },
+    {
+      "گروه سنی": "کودک",
+      "total": 2,
+      "success": 1,
+      "failure": 1,
+      "success_rate": 50.0
+    },
+    {
+      "گروه سنی": "جوان",
+      "total": 9,
+      "success": 4,
+      "failure": 5,
+      "success_rate": 44.44444444444444
+    },
+    {
+      "گروه سنی": "میانسال",
+      "total": 23,
+      "success": 10,
+      "failure": 13,
+      "success_rate": 43.47826086956522
+    },
+    {
+      "گروه سنی": "سالمند",
+      "total": 72,
+      "success": 32,
+      "failure": 40,
+      "success_rate": 44.44444444444444
+    },
+    {
+      "گروه سنی": "کهنسال",
+      "total": 27,
+      "success": 13,
+      "failure": 14,
+      "success_rate": 48.148148148148145
+    }
+  ],
+  "department_shift": {
+    "columns": [
+      "بخش",
+      "شب",
+      "صبح",
+      "عصر"
+    ],
+    "rows": [
+      {
+        "بخش": "CCU",
+        "شب": 5,
+        "صبح": 1,
+        "عصر": 0
+      },
+      {
+        "بخش": "CCU ویژه",
+        "شب": 1,
+        "صبح": 4,
+        "عصر": 0
+      },
+      {
+        "بخش": "CICU",
+        "شب": 17,
+        "صبح": 14,
+        "عصر": 20
+      },
+      {
+        "بخش": "ICUA",
+        "شب": 3,
+        "صبح": 2,
+        "عصر": 0
+      },
+      {
+        "بخش": "ICUB",
+        "شب": 9,
+        "صبح": 3,
+        "عصر": 2
+      },
+      {
+        "بخش": "NICU",
+        "شب": 1,
+        "صبح": 1,
+        "عصر": 0
+      },
+      {
+        "بخش": "PICU",
+        "شب": 4,
+        "صبح": 1,
+        "عصر": 1
+      },
+      {
+        "بخش": "آنژیوگرافی",
+        "شب": 3,
+        "صبح": 8,
+        "عصر": 5
+      },
+      {
+        "بخش": "اطفال",
+        "شب": 1,
+        "صبح": 1,
+        "عصر": 0
+      },
+      {
+        "بخش": "اورژانس",
+        "شب": 8,
+        "صبح": 2,
+        "عصر": 6
+      },
+      {
+        "بخش": "اکو تخصصی",
+        "شب": 0,
+        "صبح": 1,
+        "عصر": 0
+      },
+      {
+        "بخش": "جراحی",
+        "شب": 1,
+        "صبح": 0,
+        "عصر": 0
+      },
+      {
+        "بخش": "دیالیز",
+        "شب": 4,
+        "صبح": 2,
+        "عصر": 0
+      },
+      {
+        "بخش": "زنان",
+        "شب": 1,
+        "صبح": 0,
+        "عصر": 0
+      },
+      {
+        "بخش": "مردان A",
+        "شب": 1,
+        "صبح": 0,
+        "عصر": 0
+      },
+      {
+        "بخش": "مردان C",
+        "شب": 0,
+        "صبح": 3,
+        "عصر": 0
+      },
+      {
+        "بخش": "پست آنژیو",
+        "شب": 1,
+        "صبح": 1,
+        "عصر": 1
+      }
+    ]
+  },
+  "month_shift": {
+    "columns": [
+      "ماه",
+      "شب",
+      "صبح",
+      "عصر"
+    ],
+    "rows": [
+      {
+        "ماه": "فروردین",
+        "شب": 28,
+        "صبح": 16,
+        "عصر": 9
+      },
+      {
+        "ماه": "اردیبهشت",
+        "شب": 12,
+        "صبح": 18,
+        "عصر": 12
+      },
+      {
+        "ماه": "خرداد",
+        "شب": 20,
+        "صبح": 10,
+        "عصر": 14
+      }
+    ]
+  }
+}
